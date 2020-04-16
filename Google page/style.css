@@ -1,0 +1,151 @@
+body {
+	margin:0;
+	padding: 0;
+	font-family: arial;
+	font-size: 15px;
+}
+p {
+	font-size: 14px;
+}
+ul {
+	margin-top: 30px;
+	margin-right:20px;
+}
+li {
+	width: 40px;
+	height: 20px;
+	float: right;
+	list-style-type: none;
+	padding: 10px;
+	font: 10px;
+}
+li:nth-child(2) {
+	background:url(images/apps.png) no-repeat;
+	background-size: 20px;
+	margin-left: 11px;
+	margin-top: auto;
+	margin-top: 10px;
+	opacity: 0.5;
+}
+li:nth-child(2):hover{
+	opacity: 1;
+}
+.sign_in {
+background-color: blue;
+color: white;
+border: 1px solid;
+font-weight: bold;
+padding: 10px 12px;
+border-radius: 5px;
+margin-top: -5px;
+cursor: pointer;
+}
+li:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+#content {
+width: 700px;
+height: 125;
+display: block;	
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+ }
+ .search_bar {
+ 	margin:0 auto;
+ 	width: 580px;
+ 	border:0.6px solid;
+ 	border-radius: 25px;
+ 	border-color: white;
+ 	padding:10px;
+ 	outline: none;
+ 	border-top: 1px solid #ccc;
+ 	border-left: 1px solid #ccc;
+ 	border-right: 1px solid #ccc;
+ 	border-bottom: 1px solid #ccc;
+ }
+ .Searchbox {
+ 	width: 500px;
+ 	height: 25px;
+ 	cursor: text;
+ 	outline: none;
+ 	border: none;
+ }
+ .search_bar:hover {
+ 	box-shadow: 1px 1px 8px 1px #dcdcdc;
+ }
+ .bar:focus-within {
+ 	box-shadow: 1px 1px 8px 1px #dcdcdc;
+ 	outline:none;
+ }
+ .voice { 
+ 	height:20px;
+ 	position: relative;
+ 	top: 5px;
+ 	left: 10px;
+  }
+  .search {
+  	height: 20px;
+  	position: relative;
+  	top: 5px;
+  	left: 10px;
+  }
+  .Lucky {
+  	background-color: #f2f2f2;
+  	color: grey;
+  	font-size: 14px;
+  	font-weight: normal;
+  	border: 1px solid #f2f2f2;
+  	border-radius: 5px;
+  	height: 36px;
+  	margin: 11px 4px;
+  	padding: 0px 16px;
+  }
+  .Lucky {
+  	color: black;
+  	border: 0.5px solid #ccc; 
+  	border-radius: 4px;
+  }
+  .language {
+  	color: #0000cc;
+  	cursor: pointer;
+  	  }
+  .language:hover {
+  	text-decoration: underline;
+  	cursor: pointer;
+  }
+  #footer {
+  	display: block;
+  	left: 0;
+  	right: 0;
+  	height: 50px;
+  	position: absolute;
+  	bottom: 0px;
+  	background-color: #f2f2f2;
+  	font-size: 14px;
+  	border: 0.5px solid;
+  	border-color: #e4e4e4;
+    }
+    .bottomleft {
+    	color: #5c5c8a;
+    	float: left;
+    	padding: 5px;
+    	margin-left: 20px;
+    	margin-bottom: 5px;
+    }
+    .bottomright {
+    	color: #5c5c8a;
+    	float: right;
+    	padding: 5px;
+    	margin-right: 20px;
+    	margin-bottom: 5px;
+    }
+    .bottomleft:hover {
+    	text-decoration: underline;
+    	cursor: pointer;
+    }
+    .bottomright:hover {
+    	text-decoration: underline;
+    	cursor: pointer;
+    }
